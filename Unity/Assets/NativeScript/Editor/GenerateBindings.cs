@@ -7123,7 +7123,7 @@ namespace NativeScript.Editor
 				cppCtorInitTypes,
 				indent + 1,
 				builders.CppMacros,
-				" \\\n");
+				" \\\r\n");
 			AppendIndent(indent + 1, builders.CppMacros);
 			builders.CppMacros.Append(", ");
 			AppendCppTypeFullName(
@@ -7154,7 +7154,7 @@ namespace NativeScript.Editor
 				cppCtorInitTypes,
 				indent + 1,
 				builders.CppMacros,
-				" \\\n");
+				" \\\r\n");
 			AppendIndent(indent + 1, builders.CppMacros);
 			builders.CppMacros.Append(", ");
 			AppendCppTypeFullName(
