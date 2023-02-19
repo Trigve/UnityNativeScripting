@@ -1,0 +1,6 @@
+*.cs diff=csharp text
+
+ProjectSettings/ProjectVersion.txt eol=lf
+
+*.meta merge=unityyamlmerge eol=lf
+*.unity merge=unityyamlmerge eol=lf
